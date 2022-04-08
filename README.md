@@ -1,6 +1,6 @@
 # parazetamol_cr
 
-Parazetamol crack.
+Parazetamol .
 
 Imagine getting cracked by nt#1078, speedy#5418
 
