@@ -160,10 +160,10 @@ int main()
 		return false;
 	}
 
-	CloseHandle(process_handle);
 	CloseHandle(thread_handle);
 	VirtualFreeEx(process_handle, LPVOID(memory_allocated), 0, MEM_RELEASE);
-
+	CloseHandle(process_handle);
+	
 	std::cout << xorstr_("Executed!") << std::endl;
 
 	Sleep(3000);
